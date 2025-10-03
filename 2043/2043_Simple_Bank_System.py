@@ -1,10 +1,10 @@
+from typing import List
 class Bank:
-'''
-Simple banking system designed on the basis of the definitions given in the problem statement.
-Time Complexity: O(1)
-Space Complexity: O(1)
-'''
-
+# '''
+# Simple banking system designed on the basis of the definitions given in the problem statement.
+# Time Complexity: O(1)
+# Space Complexity: O(1)
+# '''
     def __init__(self, balance: List[int]):
         self.bal = balance
 
@@ -31,10 +31,3 @@ Space Complexity: O(1)
                 return True
             return False
         return False
-
-
-'''
-Simple banking system designed on the basis of the definitions given in the problem statement.
-Time Complexity: O(1)
-Space Complexity: O(1)
-'''
